@@ -7,6 +7,15 @@
   margin-bottom: 0;
 }
 
+.main-1 h4 {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 190px 50px 2px; 
+  margin-bottom: 0;
+}
+
 .btn-primary {
   background-color: #333;
   color: #fff;
@@ -32,6 +41,16 @@
 }
 
 
+.main-1 {
+  background-image: url("https://lh3.googleusercontent.com/oke6xTSmx49EGWU2SRd5Ip4JaeIp9xk7-uhOubCiK8ToQigNtHHDGmnU2B_Xn6iikmFacpWXzxLStXqTXtnj1TDzEHFXOgw8EE7ez6sJoaGMgYTfs1EybRrEmJKRB_W9-VGmH_4NNw=w2400");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  background-size: cover;
+  margin-top: 0;
+  
+}
+
 /* The side navigation menu */
 .sidenav {
   height: 100%; /* 100% Full-height */
@@ -56,8 +75,21 @@
   transition: 0.3s;
 }
 
+.sidenav li {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
+  color: #333;
+}
+
+.sidenav li:hover {
   color: #333;
 }
 
@@ -80,6 +112,7 @@
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+  .sidenav li {font-size: 18px;}
 }
 
 
