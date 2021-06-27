@@ -1,0 +1,30 @@
+ <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <li> <%= link_to "Home", root_path, class:"link" %></li>
+    <li><%= link_to "About", about_path, class:"link" %></li>
+    <li><%= link_to "Contact", 'signups/new', class:"link" %></li>
+  </div>
+
+<div class="contact-main">
+  
+  <div class="content container">
+    <h1>Get the latest updates from Stories</h1>
+    <div class="row">
+      <div class="col-md-4 col-md-4-offset"></div>
+      <div class="col-md-4">
+        <%= form_for(@signup) do |f| %>
+          <div class="form-group">
+            <%= f.label "First Name" %>
+            <%= f.text_field :firstname, { :class => "form-control" } %>
+          </div>
+          <div class="form-group">
+            <%= f.label "Email" %>
+            <%= f.text_field :email, { :class => "form-control" } %>
+          </div>
+          <%= f.submit "Join", { :class => "btn-primary" } %>
+          <% end %>
+      </div>
+      <div class="col-md-4 col-md-4-offset"></div>
+    </div>
+  </div>
+</div>

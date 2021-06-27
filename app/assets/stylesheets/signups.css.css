@@ -1,0 +1,27 @@
+.contact-main .content {
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+.contact-main h1 {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 12px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  top: 100px;
+}

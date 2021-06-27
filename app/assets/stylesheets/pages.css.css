@@ -7,7 +7,7 @@
   margin-bottom: 0;
 }
 
-.main-1 h4 {
+.main-1 h4, .main-2 h4 {
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
@@ -27,7 +27,7 @@
   text-decoration: none;
   text-transform: uppercase;
   position: absolute;
-  top: 300px;
+  top: 100px;
 }
 
 .main {
